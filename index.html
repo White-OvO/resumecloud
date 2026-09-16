@@ -152,7 +152,7 @@
 
   /* ---- education ---- */
   .education-section{background:var(--off);color:var(--ink);}
-  .edu-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:#DED8CA;border:1px solid #DED8CA;}
+  .edu-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1px;background:#DED8CA;border:1px solid #DED8CA;}
   .edu-card{position:relative;background:var(--off);padding:30px 26px;display:flex;flex-direction:column;gap:10px;transition:background-color .3s var(--ease-out);}
   @media (hover:hover) and (pointer:fine){ .edu-card:hover{background:#EDE7D8;} }
   .edu-card .deg{font-family:var(--font-display);font-size:1.1rem;font-weight:700;}
@@ -289,7 +289,7 @@
         <div class="stat-grid reveal reveal-delay-1" id="stat-grid">
           <div class="stat-item"><span class="num" data-count="97">0</span><span class="label">Public GitHub Repos</span></div>
           <div class="stat-item"><span class="num" data-count="2">0</span><span class="label">Degrees / Programs</span></div>
-          <div class="stat-item"><span class="num" data-count="5">0</span><span class="label">Roles Held</span></div>
+          <div class="stat-item"><span class="num" data-count="6">0</span><span class="label">Roles Held</span></div>
           <div class="stat-item"><span class="num" data-count="2">0</span><span class="label">Languages Spoken</span></div>
         </div>
       </div>
@@ -305,6 +305,17 @@
       <div class="timeline" id="timeline">
         <div class="timeline-rail"></div>
         <div class="timeline-rail-fill" id="timeline-fill"></div>
+
+        <div class="tl-item reveal">
+          <span class="tl-dot"></span>
+          <div class="tl-meta"><span class="tl-role">Freelance Developer</span><span class="tl-dates">11/2023 – Present</span></div>
+          <div class="tl-company">Turn It On · Upwork · Las Vegas, NV (Remote)</div>
+          <ul class="tl-bullets">
+            <li>Freelance software development for clients sourced through Upwork</li>
+            <li>Build and maintain applications, diagnose and fix bugs</li>
+            <li>Work across JavaScript, React, and Django REST Framework</li>
+          </ul>
+        </div>
 
         <div class="tl-item reveal">
           <span class="tl-dot"></span>
@@ -393,6 +404,12 @@
             <li style="color:var(--ink-soft);">Work with cloud infrastructure and modern CI/CD pipelines</li>
           </ul>
         </div>
+        <div class="edu-card reveal reveal-delay-2">
+          <span class="dates">11/2023 – 01/2024</span>
+          <span class="deg">Front End Developer, Software Development</span>
+          <span class="school">OneCodeCamp</span>
+          <p>Focused coursework in front-end development and algorithms — JavaScript, HTML, and CSS.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -407,7 +424,7 @@
         <div class="skills-group">
           <h3>Software Developer</h3>
           <div class="pill-cloud" id="pills-dev">
-            <span class="pill">Java</span><span class="pill">Python</span><span class="pill">C Programming</span><span class="pill">SQL &amp; Relational Databases</span><span class="pill">API Development &amp; Integration</span><span class="pill">Debugging &amp; Troubleshooting</span><span class="pill">Object-Oriented Programming</span><span class="pill">Git / GitHub</span><span class="pill">Web Application Development</span>
+            <span class="pill">Java</span><span class="pill">Python</span><span class="pill">C Programming</span><span class="pill">JavaScript</span><span class="pill">HTML &amp; CSS</span><span class="pill">React.js</span><span class="pill">Django REST Framework</span><span class="pill">SQL &amp; Relational Databases</span><span class="pill">API Development &amp; Integration</span><span class="pill">Debugging &amp; Troubleshooting</span><span class="pill">Object-Oriented Programming</span><span class="pill">Git / GitHub</span><span class="pill">Web Application Development</span><span class="pill">WordPress Design</span><span class="pill">Cybersecurity Fundamentals</span>
           </div>
         </div>
         <div class="skills-group">
